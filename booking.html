@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking - Couple's Resort</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Couple's Resort</div>
+            <p class="header-tagline">Where Romance Meets Adventure</p>
+        </header>
+        
+        <nav class="nav-container">
+            <details class="nav-details">
+                <summary class="nav-summary">Menu</summary>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="thrills.html" class="nav-link">Activities</a></li>
+                    <li class="nav-item"><a href="thrills-desktop.html" class="nav-link">Activities (Desktop)</a></li>
+                    <li class="nav-item"><a href="booking.html" class="nav-link">Booking</a></li>
+                </ul>
+            </details>
+        </nav>
+        
+        <main class="main-content">
+            <h1 class="heading-1">Book Your Stay</h1>
+            
+            <p class="paragraph">Plan your perfect couples getaway with our easy booking process. Select your preferred dates, choose your package, and let us handle the rest.</p>
+            
+            <form class="booking-form">
+                <div class="form-group">
+                    <label for="check-in" class="form-label">Check-in Date</label>
+                    <input type="date" id="check-in" class="form-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="check-out" class="form-label">Check-out Date</label>
+                    <input type="date" id="check-out" class="form-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="package" class="form-label">Select Package</label>
+                    <select id="package" class="form-select" required>
+                        <option value="">Choose a package</option>
+                        <option value="romantic">Romantic Getaway</option>
+                        <option value="adventure">Adventure Package</option>
+                        <option value="luxury">Luxury Escape</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="activities" class="form-label">Additional Activities</label>
+                    <select id="activities" class="form-select" multiple>
+                        <option value="massage">Couples Massage</option>
+                        <option value="kayaking">Tandem Kayaking</option>
+                        <option value="hiking">Guided Hiking</option>
+                        <option value="dining">Private Dining</option>
+                        <option value="spa">Spa Treatment</option>
+                    </select>
+                    <p class="form-help">Hold Ctrl/Cmd to select multiple activities</p>
+                </div>
+                
+                <div class="form-group">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" id="name" class="form-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" class="form-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone" class="form-label">Phone</label>
+                    <input type="tel" id="phone" class="form-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="special-requests" class="form-label">Special Requests</label>
+                    <textarea id="special-requests" class="form-textarea" rows="4"></textarea>
+                </div>
+                
+                <button type="submit" class="button">Complete Booking</button>
+            </form>
+            
+            <div class="booking-info">
+                <h2 class="heading-2">Booking Information</h2>
+                <p class="paragraph">Check-in time: 3:00 PM</p>
+                <p class="paragraph">Check-out time: 11:00 AM</p>
+                <p class="paragraph">Cancellation policy: Free cancellation up to 7 days before check-in</p>
+                <p class="paragraph">For assistance, please contact us at <a href="tel:+1234567890" class="link">(123) 456-7890</a></p>
+            </div>
+        </main>
+        
+        <footer>
+            <p class="paragraph">© 2023 Couple's Resort. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
